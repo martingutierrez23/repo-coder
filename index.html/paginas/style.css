@@ -108,9 +108,12 @@ ul {
 
 .footer__h3 {
     position: relative;
-    left: 10%;
+    left: 30px;
+    width: 200px;
+    margin-right: 10px;
     font-size: x-large;
     margin: 0%;
+    
 }
 
 .footer__ol {
@@ -130,7 +133,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 255, 255);
     margin: 0%;
-    overflow-x: hidden;
+    
 }
 
 .h2-productos {
