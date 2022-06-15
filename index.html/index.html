@@ -6,6 +6,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Libreria Merlin</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./paginas/style.css">
     <script src="https://kit.fontawesome.com/51fffb6a4b.js" crossorigin="anonymous"></script>
 
@@ -13,24 +14,35 @@
 
 <body>
     <div class="grid_container">
+        <Header class="header">
+            <div class="header_div">
+                <img class="logo" width="100px" src="logo.jfif" alt="imagen del logo">
+                <h1 class="titulo"><a href="index.html">Libreria Merlin</a></h1>
+                <!--
+                <a class="ul__a" id="registrate" href="./paginas/registrate.html">registrate</a>
+                <a class="ul__a" id="inicia_sesion" href="./paginas/iniciar sesion.html">Inicia Sesion</a>
+                -->
+                <nav class="navbar bg-midnightblue ">
+                    <div class="container-fluid">
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success btn-light text-bg-light border-white" type="submit">Buscar</button>
+                      </form>
+                    </div>
+                  </nav>
+                  
+            </div>
+            
+            
+            <nav class="header__nav">
+                <div class="ul__li"><a href="./paginas/productos.html">Productos</a></div>
+                <div class="ul__li"><a href="./paginas/ofertas.html">ofertas</a></div>
+                <div class="ul__li"><a href="./paginas/registrate.html">Contacto</a></div>
+                <div class="ul__li"><a href="./paginas/carrito.html">Carrito</a></div>
+            </nav>
+        </Header>
         <main>
-            <Header class="header">
-                <div class="header_div">
-                    <img class="logo" width="100px" src="logo.jfif" alt="imagen del logo">
-                    <h1 class="titulo"><a href="index.html">Libreria Merlin</a></h1>
-
-                    <a class="ul__a" id="registrate" href="./paginas/registrate.html">registrate</a>
-                    <a class="ul__a" id="inicia_sesion" href="./paginas/iniciar sesion.html">Inicia Sesion</a>
-                </div>
-                <nav class="header__nav">
-                    <div class="ul__li"><a href="./paginas/productos.html">Productos</a></div>
-                    <div class="ul__li"><a href="./paginas/ofertas.html">ofertas</a></div>
-                    <div class="ul__li"><a href="./paginas/registrate.html">Contacto</a></div>
-                    <div class="ul__li"><a href="./paginas/carrito.html">Carrito</a></div>
-                </nav>
-            </Header>
             <div class="div">
-
                 <img class="img_index" id="img_index" width="100%" height="500px"
                     src="https://png.pngtree.com/thumb_back/fw800/background/20190828/pngtree-school-timetable-card-background-with-colored-pencils-background-image_307717.jpg"
                     alt="foto de lapices">
@@ -64,6 +76,7 @@
                 </ol>
         </footer>
     </div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js">
 </body>
 
 </html>

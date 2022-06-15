@@ -113,7 +113,7 @@ ul {
     margin-right: 10px;
     font-size: x-large;
     margin: 0%;
-    
+
 }
 
 .footer__ol {
@@ -133,7 +133,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 255, 255);
     margin: 0%;
-    
+
 }
 
 .h2-productos {
@@ -141,6 +141,7 @@ body {
     color: midnightblue;
     text-decoration: underline;
     font-size: 30px;
+    margin-top: 20px;
 }
 
 .grid {
@@ -309,7 +310,7 @@ td {
 
 .h3_div {
     position: absolute;
-    bottom: 400px;
+    bottom: 350px;
     left: 30px;
     font-size: 20px;
 
@@ -338,7 +339,7 @@ td {
     display: flex;
 
     background-color: white;
-    justify-content: center;
+    justify-content: space-evenly;
 
 }
 
@@ -349,7 +350,7 @@ td {
     background-color: white;
     justify-content: center;
     font-size: 20px;
-    width: 150px;
+    width: 330px;
     margin: 30px;
     padding: 90px;
 }
@@ -410,7 +411,7 @@ td {
     justify-content: center;
     border-radius: 4px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
-   
+
 }
 
 .img_cuaderno {
@@ -436,6 +437,7 @@ td {
 .h3_productos {
     position: relative;
     left: 80px;
+    font-size: 20px;
 }
 
 #lapices_bic {
@@ -473,7 +475,8 @@ td {
     left: 80px;
     width: 235px;
 }
-.cajas:hover{
+
+.cajas:hover {
     background-color: whitesmoke;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
     transform: translateY(-10px);
