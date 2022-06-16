@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .titulo {
@@ -268,7 +267,7 @@ body {
 
 .h2__carrito {
     position: relative;
-    right: 450px;
+    left: 450px;
     color: midnightblue;
 }
 
@@ -280,6 +279,7 @@ body {
     padding: 120px;
     margin: auto;
     border-radius: 4px;
+    margin-bottom: 30px;
 }
 
 .input__carrito {
@@ -565,6 +565,7 @@ td {
 
     .ul_index li {
         border: solid 1px black;
+        border-radius: 5px;
         margin-top: 5px;
     }
 
@@ -584,5 +585,18 @@ td {
     footer {
         width: 427px;
     }
-
+    .header_div{
+        width: 425px;
+    }
+    .navbar{
+        width: 200px;
+    }
+    .btn{
+        width: 50px;
+        font-size: 11px;
+        
+    }
+    .form-control{
+       
+    }
 }
