@@ -337,7 +337,6 @@ td {
 
 .section_flex {
     display: flex;
-
     background-color: white;
     justify-content: space-evenly;
 
@@ -373,6 +372,7 @@ td {
 .header {
 
     grid-area: header;
+    
 }
 
 .div {
@@ -576,11 +576,7 @@ td {
 
     }
 
-    .section_flex {
-        width: 80px;
 
-
-    }
 
     footer {
         width: 427px;

@@ -1,0 +1,55 @@
+.section_flex {         
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+
+}
+
+.section_flex h3 {
+    color: black;
+    border: solid 5px black;
+    border-radius: 15px;
+    background-color: white;
+    justify-content: center;
+    font-size: 20px;
+    width: 330px;
+    margin: 30px;
+    padding: 90px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.footer__h3 {
+    position: relative;
+    left: 30px;
+    width: 200px;
+    margin-right: 10px;
+    font-size: x-large;
+    margin: 0%;
+
+}
+
+.footer__ol {
+    display: inline-block;
+    position: relative;
+}
+
+.footer__li {
+    display: inline-block;
+    position: relative;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+@media (max-width: 425px)
+ {
+    .section_flex{
+        display: block;
+    }
+
+}
