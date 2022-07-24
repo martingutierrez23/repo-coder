@@ -470,13 +470,13 @@ th, td {
 
   #registrate {
     position: relative;
-    left: -33px;
+    left: 110px;
     font-size: 10px;
   }
 
   #inicia_sesion {
     position: relative;
-    right: 165px;
+    
     font-size: 10px;
     padding: 8px 20px;
   }
@@ -490,7 +490,7 @@ th, td {
   }
 
   header {
-    width: 427px;
+    width: 510px;
   }
 
   .div {
@@ -520,11 +520,12 @@ th, td {
   }
 
   footer {
-    width: 427px;
+    width: 510px;
   }
 
   .header_div {
-    width: 425px;
+    width: 500px;
+    
   }
 
   .navbar {
